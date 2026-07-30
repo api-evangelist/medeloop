@@ -1,22 +1,83 @@
 aid: medeloop
 name: Medeloop
-description: Medeloop is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Medeloop is an AI platform for the clinical research lifecycle, describing
+  itself as an operating system for clinical research that spans grant discovery
+  and funding, real-world evidence generation from patient data, and delivering
+  actionable intelligence at the point of care. Its products include Medeloop
+  Analytics (AI agents that analyze EHR, claims, and registry data without
+  requiring users to code), EvidenceKit (analytics paired with all-payer claims
+  data), Medeloop Grants (AI-assisted grant discovery and proposal writing), and
+  Medeloop Care (population health and care management). The platform is
+  federated (compute moves to the data, which stays in the customer's
+  infrastructure), CDM-agnostic (Epic, Cerner, Meditech, OMOP, i2b2, or custom
+  schemas), and model-agnostic (routing tasks across OpenAI, Anthropic, or
+  DeepSeek), with multi-cloud deployment across AWS, Azure, GCP, and on-premise.
+  It serves pharmaceutical and life-sciences companies, health systems, and
+  clinical researchers. As of this enrichment pass Medeloop publishes no public
+  API, developer portal, or OpenAPI specification; its documentation host
+  (docs.medeloop.ai) is gated behind Okta authentication and its analytics
+  application is a private client login.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://medeloop.ai/assets/og-image.png
 url: https://raw.githubusercontent.com/api-evangelist/medeloop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
+- inovia-capital
+- icon-ventures
+- healthier-capital
+- maven-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Clinical Research
+- Artificial Intelligence
+- Real-World Evidence
+- Health Data
+- Life Sciences
+- Population Health
 apis: []
+common:
+- type: Website
+  url: https://medeloop.ai
+- type: SignUp
+  url: https://analytics.medeloop.ai/
+- type: Pricing
+  url: https://medeloop.ai/pricing
+- type: TermsOfService
+  url: https://medeloop.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://medeloop.ai/privacy-policy
+- type: Support
+  url: https://medeloop.ai/contact
+- type: About
+  url: https://medeloop.ai/about
+- type: Careers
+  url: https://job-boards.greenhouse.io/medeloop
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
