@@ -18,6 +18,17 @@ description: >-
   API, developer portal, or OpenAPI specification; its documentation host
   (docs.medeloop.ai) is gated behind Okta authentication and its analytics
   application is a private client login.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
