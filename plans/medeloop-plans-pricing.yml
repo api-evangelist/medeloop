@@ -1,0 +1,97 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://medeloop.ai/pricing
+sources:
+- https://medeloop.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Federated deployment — data never leaves your walls
+  managed_tier: Team
+published: true
+note: Academic/non-profit/health-system rates; credit-based study pricing with one-time bundles and subscription
+  tiers; custom/federated deployment priced on request.
+plan_count: 12
+currency: USD
+plans:
+- name: Free tier
+  price_text: Get Started Free
+  period: none
+  included_quota: 3 threads · 200M+ patient records · No credit card
+- name: 1 Study
+  price_text: $799
+  price: 799
+  currency: USD
+  period: one-time
+  unit: study
+  included_quota: 10K credits · $799 per study
+  overage: additional credits available in 10,000-credit packs at your plan's per-study rate
+- name: 3 Studies
+  price_text: $2,099
+  price: 2099
+  currency: USD
+  period: one-time
+  unit: 3 studies
+  included_quota: 30K credits · ≈$700 per study
+- name: 10 Studies
+  price_text: $5,999
+  price: 5999
+  currency: USD
+  period: one-time
+  unit: 10 studies
+  included_quota: 100K credits · ≈$600 per study
+- name: Custom (bundle)
+  price_text: Custom
+  period: none
+  included_quota: Sized to your study volume
+- name: Team (annual)
+  price_text: $549 /mo
+  price: 549
+  currency: USD
+  period: month
+  included_quota: 120K credits · ≈$549 per study; 12 studies / year; Billed as $6,588 annually.
+- name: Team (monthly)
+  price_text: $649/mo · billed monthly
+  price: 649
+  currency: USD
+  period: month
+  included_quota: 10K credits · ≈$649 per study
+- name: Lab (annual)
+  price_text: $1,399 /mo
+  price: 1399
+  currency: USD
+  period: month
+  included_quota: 360K credits · ≈$466 per study; 36 studies / year; Billed as $16,788 annually.
+- name: Lab (monthly)
+  price_text: $1,649/mo · billed monthly
+  price: 1649
+  currency: USD
+  period: month
+  included_quota: 30K credits · ≈$550 per study
+- name: Department (annual)
+  price_text: $4,166 /mo
+  price: 4166
+  currency: USD
+  period: month
+  included_quota: 1.2M credits · ≈$417 per study; 120 studies / year; Billed as $50,000 annually.
+- name: Department (monthly)
+  price_text: $4,999/mo · billed monthly
+  price: 4999
+  currency: USD
+  period: month
+  included_quota: 100K credits · ≈$500 per study
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Federated deployment — data never leaves your walls
+rate_limit_statements:
+- The free tier includes 3 conversation threads
+- Credits valid 12 months from purchase
