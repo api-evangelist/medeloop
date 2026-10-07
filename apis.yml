@@ -66,6 +66,8 @@ tags:
 - Population Health
 apis: []
 common:
+- type: Plans
+  url: plans/medeloop-plans-pricing.yml
 - url: https://medeloop.ai/blog
   type: Blog
 - type: Website
